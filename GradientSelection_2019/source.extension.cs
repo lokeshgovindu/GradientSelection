@@ -2,8 +2,8 @@
 {
     internal sealed partial class Vsix
     {
-        public const string Id          = "GradientSelection_2022.cc8c8bcc-11ce-4801-a8d8-bad42f122a9e";
-        public const string Name        = "GradientSelection_2022";
+        public const string Id          = "GradientSelection.bf99973b-9993-4dd0-99f7-a03930ed0e72";
+        public const string Name        = "GradientSelection";
         public const string Description = @"Make the selection use a gradient brush in rich client experience mode.";
         public const string Language    = "en-US";
         public const string Version     = "2023.11.0.2";
