@@ -13,8 +13,8 @@
     <ProjectGuid>{FDA17838-FCF5-4F4B-A7C2-CD9F719FE11E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GradientSelection</RootNamespace>
-    <AssemblyName>GradientSelection</AssemblyName>
+    <RootNamespace>GradientSelection_2019</RootNamespace>
+    <AssemblyName>GradientSelection_2019</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <GeneratePkgDefFile>false</GeneratePkgDefFile>
     <UseCodebase>true</UseCodebase>

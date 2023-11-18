@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="GradientSelection_2022.cc8c8bcc-11ce-4801-a8d8-bad42f122a9e" Version="2023.11.0.1" Language="en-US" Publisher="Noah Richards" />
+        <Identity Id="GradientSelection.cc8c8bcc-11ce-4801-a8d8-bad42f122a9e" Version="2023.11.0.3" Language="en-US" Publisher="Lokesh Govindu" />
         <DisplayName>GradientSelection</DisplayName>
         <Description xml:space="preserve">Make the selection use a gradient brush in rich client experience mode.</Description>
-        <MoreInfo>https://marketplace.visualstudio.com/items?itemName=LokeshGovindu.GradientSelection</MoreInfo>
+        <MoreInfo>https://marketplace.visualstudio.com/items?itemName=LokeshGovindu.GradientSelectionVS2022</MoreInfo>
         <Icon>gradient-selection-icon.png</Icon>
         <PreviewImage>gradient-selection-screenshot.png</PreviewImage>
-        <Tags>Editor, Selection</Tags>
+        <Tags>Editor, Gradient, Selection</Tags>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">

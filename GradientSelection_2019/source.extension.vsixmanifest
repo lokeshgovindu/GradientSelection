@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="GradientSelection.bf99973b-9993-4dd0-99f7-a03930ed0e72" Version="2023.11.0.2" Language="en-US" Publisher="Noah Richards" />
+        <Identity Id="GradientSelection.bf99973b-9993-4dd0-99f7-a03930ed0e72" Version="2023.11.0.3" Language="en-US" Publisher="Lokesh Govindu" />
         <DisplayName>GradientSelection</DisplayName>
         <Description xml:space="preserve">Make the selection use a gradient brush in rich client experience mode.</Description>
-        <MoreInfo>https://marketplace.visualstudio.com/items?itemName=LokeshGovindu.GradientSelection</MoreInfo>
+        <MoreInfo>https://marketplace.visualstudio.com/items?itemName=LokeshGovindu.GradientSelectionVS2019</MoreInfo>
         <Icon>gradient-selection-icon.png</Icon>
         <PreviewImage>gradient-selection-icon.png</PreviewImage>
-        <Tags>Editor, Selection</Tags>
+        <Tags>Editor, Gradient, Selection</Tags>
     </Metadata>
     <Installation>
-        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0, 17.0)" />
-        <InstallationTarget Version="[17.0, 18.0)" Id="Microsoft.VisualStudio.Community" />
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0, 17.0)"/>
     </Installation>
     <Dependencies>
         <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
     </Dependencies>
     <Prerequisites>
-        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[16.0,18.0)" DisplayName="Visual Studio core editor" />
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[16.0,17.0)" DisplayName="Visual Studio core editor" />
     </Prerequisites>
     <Assets>
         <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
